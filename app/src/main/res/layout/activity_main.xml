@@ -12,6 +12,17 @@
     tools:context="com.londonappbrewery.bitcointicker.MainActivity">
 
     <TextView
+        android:id="@+id/datum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoImage"
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true"
+
+        android:text="Datum"
+        android:textSize="30sp" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/label_default_text"
@@ -30,6 +41,18 @@
         android:src="@drawable/bitcoin_image"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/ticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/priceLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+
+        android:text="Ticker"
+        android:textSize="40sp" />
+
 
     <LinearLayout
         android:orientation="horizontal"
